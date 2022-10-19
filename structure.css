@@ -1,0 +1,243 @@
+/*
+ Description:    Neo-Curation CSS structure
+ Author:         Niyi Adewole
+ Author URI:     http://www.niyiadewole.com
+*/
+ 
+
+ 
+/* =Theme customization starts here
+------------------------------------------------------- */
+
+/*
+This is the Structure css file  for the blaqbooi site. It will contain styling related to only the structural look and reponsivity of the website
+*/
+
+html {
+	width: 100%;
+}
+
+.row {
+	float: left;
+	clear: both;
+	width: 100%;
+}
+
+.container .cols {
+	float: left;
+	padding-right: 1em;
+	padding-left: 1em;
+}
+
+	.container .cols.one,
+	.container .cols.two,
+	.container .cols.three,
+	.container .cols.four,
+	.container .cols.five,
+	.container .cols.six	,
+	.container .cols.seven,
+	.container .cols.eight,
+	.container .cols.nine,
+	.container .cols.ten,
+	.container .cols.eleven,
+	.container .cols.twelve,
+	.container .cols.thirteen,
+	.container .cols.fourteen,
+	.container .cols.fifteen,
+	.container .cols.sixteen		{ width: 100%;	}
+
+.clearfix:after,
+.container:after {
+	content: '';
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+	clear: both;
+}
+
+.clearfix,
+.container {
+	zoom: 1;
+}
+
+
+
+/* ===== MEDIA QUERIES ===== */
+
+@media only screen and (min-width: 450px) {
+
+	body {
+		font-size: 1em; /* 14/16 */
+		line-height: 1.5em;
+	}
+
+	.container .cols.one			{ width: 6.25% 	}
+	.container .cols.two 		{ width: 12.5% 	}
+	.container .cols.three		{ width: 18.75% }
+	.container .cols.four		{ width: 25%	}
+	.container .cols.five		{ width: 31.25% }
+	.container .cols.six			{ width: 37.5% 	}
+	.container .cols.seven		{ width: 43.75%	}
+	.container .cols.eight		{ width: 50%	}
+	.container .cols.nine		{ width: 56.25% }
+	.container .cols.ten			{ width: 62.5%	}
+	.container .cols.eleven		{ width: 68.75% }
+	.container .cols.twelve		{ width: 75% 	}
+	.container .cols.thirteen	{ width: 81.25% }
+	.container .cols.fourteen	{ width: 87.5%	}
+	.container .cols.fifteen		{ width: 93.75% }
+	.container .cols.sixteen		{ width: 100%	}
+	
+	.container {
+		width: 90%;
+		margin: 0 auto;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 960px) {
+
+	
+
+}
+
+.lt-ie9 .container {
+	max-width: 600px;
+}
+
+body {
+	
+}
+h1, h2, h3, ol, ul, li {
+	
+}
+
+p{
+	
+}
+
+a { 
+	
+}
+
+.link, h1 a, h2 a, h3 a {
+	
+}
+
+.entry {
+	
+}
+
+.clear {
+	
+}
+
+#content {
+	display: grid; /*-webkit-box;*/
+	max-height: 100%;	
+}
+
+.light-bg {
+	background-color: #1e5799;
+}
+
+/* Header Styles */
+#header {
+	right: 0;
+	left: 0;
+	top: 0;
+	border-bottom: solid thin #1e5799;
+	position: relative;
+}
+
+#mini-header {
+	height: 10
+}
+
+/* ======= Footer styles ======= */
+
+#footer {
+	position: fixed;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	background-color: #1e5799;
+	height: 7em;
+}
+
+/* ======= Sticky styles ====== */
+
+.sticky {
+	position: fixed !important;
+}
+
+/* Sidebar styling */
+
+.sidebar {
+	
+}
+
+
+/* Template Specific Styling */
+
+/* _______**** Projects Archive ****________ */
+.projectCanvas {
+	
+}
+
+.projectCanvas:before {
+	
+}
+
+.projectShowcase {
+	
+}
+
+.projectCanvas .entry-header {
+	
+}
+
+.canvasThumb img {
+	
+}
+
+/* Single Project Template */
+.projectHead {
+	
+}
+
+
+
+/* Comments styling */
+
+.comments-template{
+	
+}
+
+.comments-template ol{
+	
+}
+
+.comments-template ol li{
+	
+}
+
+.comments-template h2, .comments-template h3{
+	
+}
+
+.commentmetadata{
+	
+}
+
+.comments-template p.nocomments{
+	
+}
+
+.comments-template textarea{
+	
+}
